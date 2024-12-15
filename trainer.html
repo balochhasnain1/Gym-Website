@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f9bbc435e.js" crossorigin="anonymous"></script>
+    <title>111 Fitness</title>
+</head>
+<body>
+    <!--Logo-->
+    <div class="logo">
+        <img src="Images/logo.png" alt="111 Fitness" height="200px">
+    </div>
+    <!--Logo-->
+
+    <!--Navigation Start-->
+    <nav>
+        <div class="nav_1" id="nav1">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="trainer.html">Trainer</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    </nav>
+    <!--Navigation end-->
+    <!--JavaScript-->
+    <script>
+        var nav1 = document.getElementById("nav1");
+        function showMenu() {
+            nav1.style.left = "0";
+        }
+        function hideMenu() {
+            nav1.style.left = "-300px";
+        }
+    </script>
+    <!--JavaScript-->
+    <div class="tainer_background">
+
+    <h1 class="trainerh1">Train With Nabeel</h1>
+    <div class="row nabeel1">
+        <div class="col-6 ">
+            <img src="Images/nabeel.jpeg" alt="">
+        </div>
+    
+    <div class="col-6 text_trainer">
+        <p> Meet Nabeel, our certified gym trainer, dedicated to helping you achieve your fitness goals with expert guidance and personalized training. With a certification in fitness training, Nabeel brings extensive knowledge of exercise science, nutrition, and human physiology to create tailored workout programs that are both effective and safe. Whether you’re a beginner or an experienced athlete, Nabeel ensures proper form, injury prevention, and steady progress toward your goals. His passion for fitness, combined with a commitment to your success, makes him the perfect partner on your fitness journey. Join us today and experience the difference that professional, personalized training can make!</p>
+        <p><b> What We Offers</b></p>
+        <ul>
+            <li>Personal Workout</li>
+            <li>Progress Tracking</li>
+            <li>Perssonalized Diet Plan</li>
+            <li>Nutrition Tips</li>
+        </ul>
+        <p style="font-size: 30px;"> <i class="fa-solid fa-phone">Contact: +92 302 8944060 </i></p>
+    </div>
+    </div>
+</div>
+<div class="footer">
+    <footer>
+        <ul>
+            <li><i class="fa-solid fa-phone"></i> 03145810194</li>
+            <li><i class="fa-brands fa-instagram"></i> 111_Fitness</li>
+            <li>www.111fitness.com</li>
+        </ul>
+    
+    </footer>
+</div>
+
+    
+  
+  
+    
+</body>
+</html>
